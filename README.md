@@ -1,6 +1,6 @@
 # Shepard Tone
 
-Web Audio implementation for [Shepard Tone](https://en.wikipedia.org/wiki/Shepard_tone)
+Web Audio implementation of [Shepard Tone](https://en.wikipedia.org/wiki/Shepard_tone)
 Based on [Jordan Eldredge's article](https://jordaneldredge.com/blog/creating-the-shepard-tone-audio-illusion-with-javascript/)
 
 ```

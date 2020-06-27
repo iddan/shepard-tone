@@ -1,7 +1,7 @@
 {
   "name": "shepard-tone",
   "version": "1.0.0",
-  "description": "Web Audio implementation of shepard tone",
+  "description": "Web Audio implementation of Shepard Tone",
   "license": "MIT",
   "keywords": [
     "shepard",
