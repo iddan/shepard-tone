@@ -22,5 +22,21 @@
     "postpublish": "npm run build && npm run build-docs",
     "format": "prettier --write src",
     "check-format": "prettier --list-different src"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iddan/shepard-tone.git"
+  },
+  "author": {
+    "email": "mail@aniddan.com",
+    "name": "Iddan Aaronsohn",
+    "url": "https://aniddan.com"
+  },
+  "bugs": {
+    "url": "https://github.com/iddan/shepard-tone/issues"
+  },
+  "homepage": "https://github.com/iddan/shepard-tone#readme"
 }
