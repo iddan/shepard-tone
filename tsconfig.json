@@ -1,0 +1,11 @@
+{
+  "include": ["./src/*"],
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "ES5",
+    "lib": ["dom", "es2015"],
+    "outDir": "dist",
+    "declaration": true
+  }
+}

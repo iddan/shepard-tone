@@ -1,0 +1,26 @@
+{
+  "name": "shepard-tone",
+  "version": "1.0.0",
+  "description": "Web Audio implementation of shepard tone",
+  "license": "MIT",
+  "keywords": [
+    "shepard",
+    "tone",
+    "web",
+    "audio"
+  ],
+  "main": "dist/shepard-tone.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "typedoc": "^0.17.7",
+    "typescript": "^3.9.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build-docs": "typedoc",
+    "postpublish": "npm run build && npm run build-docs",
+    "format": "prettier --write src",
+    "check-format": "prettier --list-different src"
+  }
+}
